@@ -122,14 +122,14 @@ export default function App() {
 									setOpened(false);
 								}}
 								variant={'subtle'}>
-								Cancel 
+								Clear 
 							</Button>
 							<Button
 								onClick={() => {
 									createTask();
 									setOpened(false);
 								}}>
-								Create Task
+								Save
 							</Button>
 						</Group>
 					</Modal>
@@ -183,14 +183,14 @@ export default function App() {
 								You have no tasks
 							</Text>
 						)}
-						<Button
+						{/* <Button
 							onClick={() => {
 								setOpened(true);
 							}}
 							fullWidth
 							mt={'md'}>
 							New Task
-						</Button>
+						</Button> */}
 					</Container>
 				</div>
 			</MantineProvider>
