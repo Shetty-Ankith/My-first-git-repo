@@ -122,7 +122,7 @@ export default function App() {
 									setOpened(false);
 								}}
 								variant={'subtle'}>
-								Cancel
+								Clear 
 							</Button>
 							<Button
 								onClick={() => {
