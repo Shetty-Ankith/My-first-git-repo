@@ -129,7 +129,7 @@ export default function App() {
 									createTask();
 									setOpened(false);
 								}}>
-								Create Task
+								Save
 							</Button>
 						</Group>
 					</Modal>
