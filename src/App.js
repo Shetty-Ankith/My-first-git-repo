@@ -85,6 +85,15 @@ export default function App() {
 		loadTasks();
 	}, []);
 
+	function add(a, b) {
+  return a + b;
+}
+
+
+function subtract(a, b) {
+  return a - b;
+}
+
 	return (
 		<ColorSchemeProvider
 			colorScheme={colorScheme}
