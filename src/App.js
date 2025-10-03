@@ -180,17 +180,17 @@ export default function App() {
 							})
 						) : (
 							<Text size={'lg'} mt={'md'} color={'dimmed'}>
-								{/* You have no tasks */}No taks left please create one
+								You have no tasks
 							</Text>
 						)}
-						{/* <Button
+						<Button
 							onClick={() => {
 								setOpened(true);
 							}}
 							fullWidth
 							mt={'md'}>
 							New Task
-						</Button> */}
+						</Button>
 					</Container>
 				</div>
 			</MantineProvider>
