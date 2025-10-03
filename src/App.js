@@ -122,14 +122,14 @@ export default function App() {
 									setOpened(false);
 								}}
 								variant={'subtle'}>
-								Clear 
+								Cancel 
 							</Button>
 							<Button
 								onClick={() => {
 									createTask();
 									setOpened(false);
 								}}>
-								Save
+								Create Task
 							</Button>
 						</Group>
 					</Modal>
